@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAC MD WhatsApp Bot</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white text-center p-4">
+        <h1>MAC MD WhatsApp Bot</h1>
+        <p>Make the use of WhatsApp fun!</p>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Auto Status Reader</h3>
+                <p>Read your friends' WhatsApp status automatically.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Auto Status Saver</h3>
+                <p>Save your friends' WhatsApp status automatically.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Auto Message Reader</h3>
+                <p>Read your WhatsApp messages automatically.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Bootstrap & jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#contactForm').submit(function(e) {
+                e.preventDefault();
+                alert('Thank you for reaching out! We will get back to you soon.');
+            });
+        });
+    </script>
+</body>
+</html>
