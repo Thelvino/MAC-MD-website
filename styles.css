@@ -3,14 +3,13 @@ body {
 }
 
 header {
-    font-weight: bold;
+    padding: 40px;
 }
 
 #features {
     padding: 40px 0;
 }
 
-#contact {
-    padding: 40px 0;
+#deployment {
+    padding: 40px;
 }
-```
