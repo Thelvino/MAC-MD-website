@@ -4,6 +4,8 @@ body {
 
 header {
     margin: 40px;
+    padding: 40px;
+    border: 40px;
 }
 
 section {
