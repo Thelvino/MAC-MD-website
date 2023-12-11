@@ -21,7 +21,7 @@ section {
     padding: 60px;
 }
 
-.btn:btn-primary {
+.btn:deploy {
   background-color: #04AA6D; /* Green */
   border: none;
   color: white;
